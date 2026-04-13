@@ -1,79 +1,51 @@
-# PM Internship AI Recommendation Engine | pm-internship-ai
 
-This project is an **AI-powered Internship Recommendation Portal** built for the PM Internship Scheme. It matches students to the most suitable government-backed internships based on their skills, interests, and backgrounds, providing a personalized, transparent, and scalable experience.
+# InternMatch AI – Internship Recommendation System
 
-## 🏗️ Tech Stack
+## Overview
 
-- **Frontend:** React (Next.js), Tailwind CSS, Axios
-- **Backend:** Node.js, Express, Gemini API (for skill extraction and recommendations), JWT Auth
-- **Database:** MongoDB Atlas (Free Tier for demo)
-- **Deployment:** Vercel (frontend), Render/Heroku (backend)
+Finding suitable internships on online platforms can be time-consuming because many listings are not relevant to a student’s skills.
+This project aims to simplify that process by recommending internships based on user skills and interests.
 
-## 🚀 Features
+## About the Project
 
-- Secure login & registration for students and admins
-- Resume upload (PDF/DOCX) or manual skill/interest entry
-- AI-based skills & interest extraction using Gemini API
-- Personalized internship recommendations with skill match score
-- Filters on domain, location, stipend, duration, skill match %
-- Admin panel to add/edit/manage internships
-- Edge case handling (missing skills, no matches, resume issues)
-- Analytics dashboard (optional)
-- Clean, intuitive interface for both students and admins
+The system uses basic recommendation techniques along with AI-based analysis to match students with internships that fit their profile.
+It helps reduce manual searching and improves the overall experience.
 
-## 📊 Workflow
+## Features
 
-1. **Student Side**
-   - Register/Login
-   - Upload resume or enter skills manually
-   - Receive AI-analyzed skills/interests and get ranked internship matches
-   - Dashboard displays matches with filters, match score, and "why matched" info
+* Provides personalized internship suggestions
+* Matches internships based on user skills
+* Uses AI for better understanding of requirements
+* Simple and user-friendly interface
+* Secure login system
 
-2. **Admin Side**
-   - Register/Login as admin
-   - Post and manage internships with required skills, duration, stipend, etc.
-   - Optional: view analytics on popular listings, trends
+## Working
 
-3. **Backend & AI**
-   - Handles auth, stores student & internship data in MongoDB
-   - Integrates with Gemini API for resume parsing and semantic matching
-   - Returns top-fit internships based on student profile
+1. User enters their skills and preferences
+2. System compares them with internship data
+3. A matching score is calculated
+4. AI improves the recommendation quality
+5. Relevant internships are shown
 
-## 🤝 Team & Collaboration
+## Technologies Used
 
-- **Frontend:** [Team member name(s)] — Student/admin dashboard, UI/UX, API integration
-- **Backend:** [Team member name(s)] — APIs, DB, Gemini integration, match logic
-- **Data Preparation & Testing:** [Names] — Mock data prep, edge case testing, demo support
-- **Presentation:** [Name] — Slides, live demo, documentation, project explanation
+Frontend: React.js, Tailwind CSS
+Backend: Node.js, Express.js
+Database: MongoDB
+AI Tool: Google Gemini API
 
-Workflow uses GitHub issues/branches/pull requests for collaborative, transparent code development. Each team member commits to their respective module and collaborates on integration/testing.
+## Result
 
-## 🧑‍💻 Getting Started
+The system reduces the time required to search for internships and provides more relevant results compared to traditional platforms.
 
-1. **Clone the repository**
-2. **Install frontend & backend dependencies** (`npm install` in both folders)
-3. **Run MongoDB Atlas and update connection strings in backend config**
-4. **Start backend server and frontend dev server**
-5. **Test core flows: login, upload, recommendation, and filtering**
+## Future Scope
 
-## 📁 Directory Structure
-```
-pm-internship-ai-engine/
-│
-├── frontend/
-│ └── ... (React app, component folders)
-├── backend/
-│ └── ... (Express app, routes, controllers)
-└── README.md
-```
+* Integration with real-time internship data
+* Resume-based skill extraction
+* Mobile application development
+* Improved recommendation accuracy
 
-## 🌟 Contribution Guidelines
+## Developed By
 
-- Feature branches for major changes
-- Descriptive commit messages
-- Pull requests with code reviews before merge
-- Open issues for bugs/feature requests
-
----
-
-**Let’s empower students with transparent, AI-driven government internship opportunities!**
+Madhavi Reddy and Team
+>>>>>>> 
