@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Custom Variants */
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant blue (&:where(.blue, .blue *));
+
+html,
+body {
+  background-color: #171c1c;
+}
+
+button {
+  will-change: scale; /* To remove the flickering while hover */
+}
+
+/* Global Variables */
+:root {
+  --primary-text-muted: gray;
+}
