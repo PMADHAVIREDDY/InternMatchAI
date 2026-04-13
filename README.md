@@ -1,67 +1,49 @@
-# 🚀 AI-Based Internship Recommendation System
+# InternMatch AI – Internship Recommendation System
 
-![MERN](https://img.shields.io/badge/Stack-MERN-green)
-![AI](https://img.shields.io/badge/AI-Enabled-blue)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+## Overview
 
----
+Finding suitable internships on online platforms can be time-consuming because many listings are not relevant to a student’s skills.
+This project aims to simplify that process by recommending internships based on user skills and interests.
 
-## 📖 Description
+## About the Project
 
-An AI-powered internship recommendation platform that helps students find relevant opportunities based on their skills, interests, and profiles.
+The system uses basic recommendation techniques along with AI-based analysis to match students with internships that fit their profile.
+It helps reduce manual searching and improves the overall experience.
 
-The system uses **machine learning and semantic analysis (GenAI)** to provide accurate and personalized recommendations, reducing manual search effort.
+## Features
 
----
+* Provides personalized internship suggestions
+* Matches internships based on user skills
+* Uses AI for better understanding of requirements
+* Simple and user-friendly interface
+* Secure login system
 
-## 🚀 Features
+## Working
 
-* 🔍 Personalized internship recommendations
-* 🤖 AI-powered semantic matching
-* 📊 Skill match scoring algorithm
-* ⚡ Fast and responsive UI
-* 🔐 Secure authentication (JWT)
-* 📱 Mobile-friendly design
+1. User enters their skills and preferences
+2. System compares them with internship data
+3. A matching score is calculated
+4. AI improves the recommendation quality
+5. Relevant internships are shown
 
----
+## Technologies Used
 
-## 🛠️ Tech Stack
+Frontend: React.js, Tailwind CSS
+Backend: Node.js, Express.js
+Database: MongoDB
+AI Tool: Google Gemini API
 
-* **Frontend:** React.js, Tailwind CSS
-* **Backend:** Node.js, Express.js
-* **Database:** MongoDB
-* **AI:** Google Gemini API
+## Result
 
----
+The system reduces the time required to search for internships and provides more relevant results compared to traditional platforms.
 
-## ⚙️ How It Works
+## Future Scope
 
-1. User enters skills & preferences
-2. System calculates **skill match score**
-3. AI performs semantic analysis
-4. Top internships are recommended
+* Integration with real-time internship data
+* Resume-based skill extraction
+* Mobile application development
+* Improved recommendation accuracy
 
----
+## Developed By
 
-## 📊 Results
-
-* ✔️ High recommendation accuracy
-* ✔️ Reduced manual effort
-* ✔️ Fast response time
-
----
-
-## 👩‍💻 Contributors
-
-* Madhavi Reddy
-* Team Members
-
----
-
-## ⭐ Future Improvements
-
-* Add real-time APIs
-* Improve AI accuracy
-* Build mobile app
-
+Madhavi Reddy and Team
